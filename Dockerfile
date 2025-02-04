@@ -1,5 +1,5 @@
 # Stage 1: Build the Spring Boot JAR
-FROM maven:3.8.5-openjdk-17 AS builder
+FROM maven:3.8.4-openjdk-17 AS builder
 
 WORKDIR /app
 
